@@ -4,8 +4,8 @@ This repository contains reusable `shell.nix` files to quickly set up isolated d
 
 ## 📦 Available Environments
 
-- 🦀 [`rust/`](./rust) — Rust development environment with `cargo`, `clippy`, `rust-analyzer`, and `openssl` support
-- 🐍 [`python/`](./python) — Python 3.13 environment with `uv`, `mypy`, compiler tools, and `git`
+- 🦀 [`rust/`](./rust) — Rust development environment with `cargo`, `rust-analyzer`, and `openssl` support
+- 🐍 [`python/`](./python) — Python 3.14 environment with `uv`, `mypy`, compiler tools
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ Clone the repo and enter any environment:
 ```bash
 git clone https://github.com/Dzavoy/NixDevEnviroments.git
 cd dev-environments/rust
-nix-shell
+nix develop
 ```
 
 ### Why Use This?
