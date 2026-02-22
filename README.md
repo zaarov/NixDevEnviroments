@@ -1,4 +1,4 @@
-# 💻 Dev Environments with Nix ❄️
+# Dev Environments with Nix
 
 This repository contains reusable `shell.nix` files to quickly set up isolated development environments for various programming languages and toolchains using [Nix](https://nixos.org/).
 
@@ -6,9 +6,8 @@ This repository contains reusable `shell.nix` files to quickly set up isolated d
 
 - 🦀 [`rust/`](./rust) — Rust development environment with `cargo`, `clippy`, `rust-analyzer`, and `openssl` support
 - 🐍 [`python/`](./python) — Python 3.13 environment with `uv`, `mypy`, compiler tools, and `git`
-- λ [`haskell/`](./haskell) — Haskell environment with `ghc`, `cabal`, and `haskell-language-server`
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Install Nix ❄️
 
