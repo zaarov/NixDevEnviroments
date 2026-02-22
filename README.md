@@ -23,7 +23,7 @@ cd dev-environments/rust
 nix-shell
 ```
 
-### ✨ Why Use This?
+### Why Use This?
 
 - Language-specific tools pre-installed
 
