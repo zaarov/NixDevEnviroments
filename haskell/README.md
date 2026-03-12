@@ -1,6 +1,6 @@
 ### λ Haskell
 ```bash
-cd /haskell
+cd haskell
 nix develop
 ```
 You’ll see a message like: λ Haskell environment activated.

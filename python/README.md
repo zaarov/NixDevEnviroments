@@ -1,6 +1,6 @@
 ### 🐍 Python
 ```bash
+cd python
 nix develop
-nix-shell
 ```
 You’ll see a message like: 🐍 Python environment activated.
