@@ -6,10 +6,11 @@ This repository contains reusable `shell.nix` files to quickly set up isolated d
 
 - 🦀 [`rust/`](./rust) — Rust development environment with `cargo`, `rust-analyzer`, and `openssl` support
 - 🐍 [`python/`](./python) — Python 3.14 environment with `uv`, `mypy`, compiler tools
+- λ [`haskell/`](./haskell) — λ Haskell environment with `ghc`, `cabal`, `haskell-language-server` and `ormolu`
 
 ## Getting Started
 
-### 1. Install Nix ❄️
+### 1. Install Nix
 
 Follow the instructions at [nixos.org/download.html](https://nixos.org/download.html)
 
