@@ -2,7 +2,7 @@
   description = "Haskell dev shell";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-25.11";
+    nixpkgs.url = "nixpkgs/nixos-unstable";
   };
 
   outputs = { nixpkgs, ... }:
@@ -19,13 +19,13 @@
         cabal-install
         haskell-language-server
         ormolu
+        haskellPackages.cabal-gild
       ];
 
       shellHook = ''
         echo "λ Haskell environment activated"
         echo "GHC:   $(ghc --version)"
         echo "Cabal: $(cabal --version)"
-        echo "HLS:   $(haskell-language-server --version 2>/dev/null || echo 'not found')"
       '';
     };
   };
