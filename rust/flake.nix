@@ -2,7 +2,7 @@
   description = "Rust dev shell";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-25.11";
+    nixpkgs.url = "nixpkgs/nixos-unstable";
 
     rust-overlay = {
       url = "github:oxalica/rust-overlay";
@@ -30,7 +30,8 @@
       ];
 
       shellHook = ''
-        echo "🦀 Rust environment activated."
+        echo "Rust environment activated."
+        echo "Cargo: $(cargo --version)"
       '';
     };
   };
