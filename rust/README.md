@@ -1,4 +1,4 @@
-### 🦀 Rust
+### Rust
 ```bash
 cd rust
 nix develop
