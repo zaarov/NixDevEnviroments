@@ -4,9 +4,9 @@ This repository contains reusable `flake.nix` files to quickly set up isolated d
 
 ## Available Environments
 
-- [`rust/`](./rust) — Rust development environment with `cargo`, `rust-analyzer`, and `openssl` support
-- [`python/`](./python) — Python 3.14 environment with `uv`, `mypy`, compiler tools
-- [`haskell/`](./haskell) — λ Haskell environment with `ghc`, `cabal`, `haskell-language-server` and `ormolu`
+- [`rust/`](./rust)       — Rust development environment with `cargo`, `rust-analyzer`, and `openssl` support
+- [`python/`](./python)   — Python 3.14 environment with `uv`, `mypy`, compiler tools
+- [`haskell/`](./haskell) — Haskell environment with `ghc`, `cabal`, `haskell-language-server` and `ormolu`
 
 ## Getting Started
 
