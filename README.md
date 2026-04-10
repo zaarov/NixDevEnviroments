@@ -1,6 +1,6 @@
 # Dev Environments with Nix
 
-This repository contains reusable `shell.nix` files to quickly set up isolated development environments for various programming languages and toolchains using [Nix](https://nixos.org/).
+This repository contains reusable `flake.nix` files to quickly set up isolated development environments for various programming languages and toolchains using [Nix](https://nixos.org/).
 
 ## Available Environments
 
