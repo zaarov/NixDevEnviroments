@@ -2,11 +2,11 @@
 
 This repository contains reusable `shell.nix` files to quickly set up isolated development environments for various programming languages and toolchains using [Nix](https://nixos.org/).
 
-## 📦 Available Environments
+## Available Environments
 
-- 🦀 [`rust/`](./rust) — Rust development environment with `cargo`, `rust-analyzer`, and `openssl` support
-- 🐍 [`python/`](./python) — Python 3.14 environment with `uv`, `mypy`, compiler tools
-- λ [`haskell/`](./haskell) — λ Haskell environment with `ghc`, `cabal`, `haskell-language-server` and `ormolu`
+- [`rust/`](./rust) — Rust development environment with `cargo`, `rust-analyzer`, and `openssl` support
+- [`python/`](./python) — Python 3.14 environment with `uv`, `mypy`, compiler tools
+- [`haskell/`](./haskell) — λ Haskell environment with `ghc`, `cabal`, `haskell-language-server` and `ormolu`
 
 ## Getting Started
 
@@ -31,5 +31,3 @@ nix develop
 - Reproducible, isolated environments
 
 - No need for global installs
-
-- Great for learning, prototyping, and team sharing
