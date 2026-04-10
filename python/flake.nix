@@ -2,7 +2,7 @@
   description = "Python dev shell";
 
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-25.11";
+    nixpkgs.url = "nixpkgs/nixos-unstable";
   };
 
   outputs = { nixpkgs, ... }:
@@ -27,7 +27,7 @@
       ];
 
       shellHook = ''
-        echo "🐍 Python environment activated."
+        echo "Python environment activated."
         echo "Python: $(python --version)"
         echo "uv:     $(uv --version 2>/dev/null || echo 'not found')"
       '';
